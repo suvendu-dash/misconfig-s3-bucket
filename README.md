@@ -10,7 +10,7 @@ A misconfigured S3 bucket is a cloud storage bucket provided by Amazon Web Servi
  
 Use Active & Passive Subdomain Enumeration methods to gather a list of subdomains. Sort the results and use httpx to filter out the live subdomains. Save the list of live subdomains as final_subdomains.txt.
 
-To use the `misconfig_s3_buckets.sh script`, you will need to modify the script to include the path to your subdomains file. Once you have done that, you will need to make the script executable by running the command `chmod +x misconfig_s3_buckets.sh`.
+To use the `misconfig_s3_buckets.sh` script, you will need to modify the script to include the path to your subdomains file. Once you have done that, you will need to make the script executable by running the command `chmod +x misconfig_s3_buckets.sh`.
 
 To run the script, you can use the following command:
 
