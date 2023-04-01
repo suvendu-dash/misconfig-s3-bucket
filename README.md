@@ -5,6 +5,8 @@
  chmod +x misconfig_s3_buckets.sh 
 
  ./misconfig_s3_buckets.sh ~/yoursubdomain/path/final_subdomains.txt
+ 
+ If the script does not detect any misconfigured S3 buckets, then the output file misconfig_s3.txt will not be created.
 
 
  # To install AWS CLI, you can follow these steps:
