@@ -1,5 +1,9 @@
  # Check misconfig-s3-buckets
 
+**What are misconfigured S3 buckets?**
+
+A misconfigured S3 bucket is a cloud storage bucket provided by Amazon Web Services (AWS) that has been set up incorrectly and is publicly accessible. These misconfigured buckets can expose sensitive data and allow unauthorized access, which can lead to data breaches and other security risks. It's important for organizations to properly configure their S3 buckets and regularly check for any misconfigurations to prevent these types of incidents.
+
  **Check each subdomain for misconfigured S3 buckets using s3-bucket-enum and the AWS CLI**
 
  This script will check each subdomain from the final_subdomains.txt file for misconfigured S3 buckets using the `aws s3 ls` command, and save the results in a file named  `misconfig_s3.txt`.
