@@ -1,4 +1,4 @@
- misconfig-s3-bucket
+ # misconfig-s3-bucket
 
  This script will check each subdomain from the final_subdomains.txt file for misconfigured S3 buckets using the aws s3 ls command, and save the results in a file named  misconfig_s3.txt.
 
@@ -7,7 +7,7 @@
  ./misconfig_s3_buckets.sh ~/yoursubdomain/path/final_subdomains.txt
 
 
- To install AWS CLI, you can follow these steps:
+ # To install AWS CLI, you can follow these steps:
 
  Make sure you have Python installed on your system. You can check by running python --version in your terminal.
 
