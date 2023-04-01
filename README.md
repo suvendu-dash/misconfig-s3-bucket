@@ -1,4 +1,4 @@
- # misconfig-s3-bucket
+ # Check misconfig-s3-bucket
 
  **Check each subdomain for misconfigured S3 buckets using s3-bucket-enum and the AWS CLI**
 
