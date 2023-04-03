@@ -14,6 +14,6 @@ while read subdomain; do
         echo "[+] $subdomain has a misconfigured S3 bucket!"
         echo "$subdomain" >> misconfig_s3.txt
     fi
-done < ~/yoursubdomain/path/final_subdomains.txt
+done < $1
 
 echo "[*] Done!"
